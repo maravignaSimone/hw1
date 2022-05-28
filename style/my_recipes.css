@@ -1,0 +1,11 @@
+header{
+    min-height: 50vh;
+}
+
+.recipes{
+    margin: 20px 0;
+}
+
+.recipes h3{
+    color: #a6a6a6;
+}

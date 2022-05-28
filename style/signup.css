@@ -1,0 +1,158 @@
+body{
+    background-color: #F7F7F7;
+    display: flex;
+    color:black;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    background-image: url("../image/food_bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+main{
+    max-width: 450px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 15px;
+}
+
+.login{
+    max-width: 350px;
+}
+
+main h1 {
+    color: black;
+    font-size: 2em;
+    margin: 10px;
+}
+
+.login h1{
+    max-width: 150px;
+    font-size: 1.8em;
+}
+
+main p{
+    max-width: 320px;
+    margin: 0 10px;
+}
+
+main h3{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+main .error {
+    padding: 7px 10px;
+    color: #fa1c2c;
+    margin: 5px;
+    font-size: 12px;
+    display: block;
+}
+
+label {
+    font-size: 14px;
+    position: relative;
+    top: 9px;
+    left: 10px;
+    background-color: white;
+}
+
+form {
+    max-width: 500px;
+}
+
+input[type=text], input[type=password] {
+    background: white;
+    padding: 10px;
+    border: 0.5px solid #707070;
+    color: black;
+    border-radius: 8px;
+}
+
+input[type=submit] {
+    background: #66bb6a;
+    border: 0;
+    border-radius: 50px;
+    padding: 12px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+input[type=submit]:hover {
+    background: #81c784;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    border: 1px solid black;
+}
+
+main input {
+    width: 100%;
+}
+
+.check {
+    margin: 10px 10px 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.check div{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.check label{
+    top: 0;
+    left: 0;
+}
+
+.check input {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    border-radius: 4px;
+    position: relative;
+    border: 2px solid #d9d9d9;
+} 
+
+form span {
+    opacity: 0;
+    font-size: 11px;
+    transition: opacity 0.3s ease;
+}
+
+.errorjs label {
+    color: #fa1c2c;
+}
+
+.errorjs span {
+    opacity: 1;
+    font-size: 11px;
+    color: #fa1c2c;
+}
+
+.errorjs input {
+    border-color: #fa1c2c;
+}
+
+main .signin {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+main .signin a {
+    color: #66bb6a;
+}
+
+main .signin a:hover {
+    color: #81c784;
+}
